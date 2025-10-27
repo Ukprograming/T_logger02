@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>DS18B20 温度ロガー (Web Serial)</title>
+  <title>温度ロガー（DS18B20）</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script>
     // Chart.js のデフォルトを少し大きめ/太め＆点表示に
@@ -25,7 +25,7 @@
   </style>
 </head>
 <body>
-  <h1>DS18B20 温度ロガー (Web Serial)</h1>
+  <h1>温度ロガー（DS18B20）</h1>
   <div class="row">
     <button id="connectBtn">ポート接続</button>
     <button id="disconnectBtn" disabled>切断</button>
@@ -426,3 +426,4 @@ window.addEventListener('beforeunload', async () => { try { await disconnect(); 
 </script>
 </body>
 </html>
+
